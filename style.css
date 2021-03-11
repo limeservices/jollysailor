@@ -145,6 +145,8 @@ iframe {
 		padding-top:0.5%;
 		padding-bottom:0.5%;
 }
+
+/* SMP */
 .smp {
 		position:relative;
 	/* TEXT */
@@ -154,6 +156,8 @@ iframe {
 		padding-left:5%;
 		padding-right:5%;
 }
+
+/* SMP TITLING */
 .smptitle {
 	position:relative;
 	/* TEXT */
@@ -162,4 +166,24 @@ iframe {
 		text-align: center;
 	/* POSITION */
 		padding-top:5%;
+}
+
+/* DROPDOWN MENU */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #323232;
+	min-width: 25px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	padding: 1px 10px;
+	z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
